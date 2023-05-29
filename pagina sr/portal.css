@@ -1,0 +1,133 @@
+*{
+    padding: 2px;
+    margin: 0 auto;
+}
+body{
+    width: 95%;
+    background: #eeeeee;
+   /*background-color: white;
+   margin: 50px;*/
+   margin: 0 auto;
+
+}
+body div img{
+    margin: 5px auto;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+header{
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    width: 100%;
+    clear: both;
+    content: '';
+    font-family: 'Calibri';
+    /*height: 210px;*/
+    display: flex;
+}
+nav{
+    float: left;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    float: left;
+    padding: 10px 10px 1px 10px;
+    position: relative;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #719393;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.5s;
+}
+nav ul li a:hover:before{
+    width: 100%;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    margin: 10px 10px;
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+    display:inline-block;
+    background:#ffffff ;
+    color: black;
+    border-radius: 20px;
+}
+
+.enlace{
+    color: black;
+    font-weight: bold;
+}
+
+.enlace_tabla{
+    color: rgb(242, 7, 7);
+    font-weight: bold;
+    font-style:italic;
+}
+
+.men_nav_bar{
+    font-size: 30px;
+    color: rgb(94, 92, 92);
+}
+body div img{
+    height: 100%;
+    display: block;
+    
+}
+
+.img_th{
+    
+    width: 50%;
+
+}
+
+.series{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.img-li{
+    width: 10%;
+}
+
+.centrado{
+    margin: 0 auto;
+    margin-top: 0%;
+}
+.FICHA{
+    text-align: center;
+}
+.navv{
+    height: 50px;
+    position: fixed;
+}
+
+header{
+    
+  position: fixed;
+  z-index: 100;
+}.contenido {
+    padding-top: 60px;
+  }
+  .wrapper {
+    margin: auto;
+    overflow:hidden;
+  }
