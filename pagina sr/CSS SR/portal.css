@@ -108,6 +108,10 @@ body div img{
     width: 10%;
 }
 
+body div table tr th img{
+    width: 80%;
+}
+
 .centrado{
     margin: 0 auto;
     margin-top: 0%;
@@ -124,10 +128,23 @@ header{
     
   position: fixed;
   z-index: 100;
-}.contenido {
+}
+.contenido {
     padding-top: 60px;
   }
-  .wrapper {
+.wrapper {
     margin: auto;
     overflow:hidden;
+  }
+
+@media (max-width: 580px){
+    .pc{
+        display: none;
+    }
+  }
+  
+@media (min-width: 581px){
+    .movil{
+        display: none;
+    }
   }

@@ -12,131 +12,189 @@
   <title>Grupo San Rafael - Precios</title>
 </head>
   <!--iNICIO navbar-->
-  <div class="row">
-    <div class="col-12">            
-        <header class="home">
-            <div class="menu">             
-                <nav >
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light" class="men_nav_bar">
-                        <div class="container-fluid">
-                          <div>
-                            <img  src="pagina sr/Imagenes/logo1.png"  alt="San Rafael">
+    <div class="row">
+      <div class="col-12">            
+          <header class="home">
+              <div class="menu">             
+                  <nav >
+                      <nav class="navbar navbar-expand-lg navbar-light bg-light" class="men_nav_bar">
+                          <div class="container-fluid">
+                            <div>
+                              <img  src="pagina sr/Imagenes/logo1.png"  alt="San Rafael">
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                  <a  class="men_nav_bar" aria-current="page" href="index.html">Superficiales</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="men_nav_bar" aria-current="page" href="sumergibles.html">Sumergibles</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="men_nav_bar" aria-current="page" href="precios.html">Lista de Precios</a>
+                                </li>
+                                <li class="nav-item">
+                                  <input class="superior" type="text" id="myInput" name=""  placeholder="Buscar...">
+                                </li>
+                              </ul>
+                            </div>
                           </div>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                <a  class="men_nav_bar" aria-current="page" href="index.html">Superficiales</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="men_nav_bar" aria-current="page" href="sumergibles.html">Sumergibles</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="men_nav_bar" aria-current="page" href="precios.html">Lista de Precios</a>
-                              </li>
-                              <li class="nav-item">
-                                <input class="superior" type="text" id="myInput" name=""  placeholder="Buscar...">
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </nav>
-                </nav>
-            </div>
-        </header>
-    </div>
-</div>
-<!--Fin navbar-->
+                        </nav>
+                  </nav>
+              </div>
+          </header>
+      </div>
+  </div>
+<!--Fin navbar PC-->
+
 
 <section class="contenido wrapper">
 <body class="centrado">
 
+<!--Inicio tabla pc-->
+<div class="pc">
+  <div class="contenido">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">MARCA</th>
+          <th scope="col">DESCRIPCION</th>
+          <th scope="col">PDF</th>
+        </tr>
+        </thead>
+          <tbody id="myTable">
+              <tr>
+                <th scope="row" class="img-li" ><img src="pagina sr/Imagenes/PEDROLLO.jpg" width="80%" alt=""></th>
+                <td>PEDROLLO</td>
+                <td>ITALIANA, SUPERFICIAL</td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Pedrollo SUPERFICIAL 06MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
 
+              <tr>
+                <th scope="row" class="img-li"><img src="pagina sr/Imagenes/PEDROLLO.jpg" width="80%"  alt=""></th>
+                <td>PEDROLLO</td>
+                <td>ITALIANA, SUMERGIBLES</td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Pedrollo SUMERGIBLES 06MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
 
-    
-    <input type="text" id="myInput" name=""  placeholder="Buscar...">
-    
-    <!--Inicio tabla-->
+              <tr>
+                <th scope="row" class="img-li"><img src="pagina sr/Imagenes/VAREM.png" width="80%" alt=""></th>
+                <td>PEDROLLO - VAREM - LUCKY PRO</td>
+                <td>SISTEMAS AUTOMATICOS</td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Sistemas Automaticos 03MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
 
+              <tr>
+                <th scope="row" class="img-li"><img src="pagina sr/Imagenes/VAREM.png" width="80%" alt="VAREM"></th>
+                <td>PEDROLLO - VAREM</td>
+                <td>HIDRONEUMATICOS - FILTROS</td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Hidroneumaticos Filtros 02MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
+              
+              <tr>
+                <th scope="row" class="img-li"><img src="pagina sr/Imagenes/CAPRARI.jpg" width="80%" alt=""></th>
+                <td class="lili">CAPRARI</td>
+                <td>ITALIANA, SUMERGIBLES</td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Caprari Sumergibles 06MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
+              
+              <tr>
+                <th scope="row" class="img-li"><img src="pagina sr/Imagenes/CAPRARI.jpg" width="80%" alt=""></th>
+                <td class="lili">CAPRARI</td>
+                <td>ITALIANA, SUPERFICIAL</td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Caprari Superficial 06MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
+              
+              <tr>
+                <th scope="row" class="img-li"><img src="pagina sr/Imagenes/LUCKY PRO.jpg" width="80%" alt=""></th>
+                <td class="lili">LUCKY PRO</td>
+                <td>LUCKY PRO</td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/LUCKY-PRO-02MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
+              
+              <tr>
+                <th scope="row" class="img-li"><img src="pagina sr/Imagenes/KOSHIN.jpg" width="80%" alt=""></th>
+                <td class="lili">KOSHIN</td>
+                <td>KOSHIN </td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Koshin-Mori-02MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
+              
+              <tr>
+                <th scope="row" class="img-li"><img src="pagina sr/Imagenes/CHANGFA.jpg" width="80%" alt=""></th>
+                <td class="lili">CHANGFA - HWASDAN</td>
+                <td>CHANGFA - HWASDAN</td>
+                <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Changfa FEROZ 03MAY2023.pdf">Ver lista de precios</a></td>
+              </tr>
+
+          </tbody>
+    </table>
+  </div>
+</div>
+      <!--Fin tabla pc-->
+
+            <!--Inicio tabla movil-->
+  <div class="movil">
     <table class="table">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">MARCA</th>
             <th scope="col">DESCRIPCION</th>
             <th scope="col">PDF</th>
           </tr>
         </thead>
         <tbody id="myTable">
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/PEDROLLO.jpg" width="80%" alt=""></th>
-            <td>PEDROLLO</td>
-            <td>ITALIANA, SUPERFICIAL</td>
+            <td>PEDROLLO ITALIANA, SUPERFICIAL</td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Pedrollo SUPERFICIAL 06MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
 
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/PEDROLLO.jpg" width="80%" alt=""></th>
-            <td>PEDROLLO</td>
-            <td>ITALIANA, SUMERGIBLES</td>
+            <td>PEDROLLO ITALIANA, SUMERGIBLES</td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Pedrollo SUMERGIBLES 06MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
 
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/VAREM.png" width="80%" alt=""></th>
-            <td>PEDROLLO - VAREM - LUCKY PRO</td>
             <td>SISTEMAS AUTOMATICOS</td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Sistemas Automaticos 03MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
 
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/VAREM.png" width="80%" alt=""></th>
-            <td>PEDROLLO - VAREM</td>
             <td>HIDRONEUMATICOS - FILTROS</td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Hidroneumaticos Filtros 02MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
           
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/CAPRARI.jpg" width="80%" alt=""></th>
-            <td class="lili">CAPRARI</td>
             <td>ITALIANA, SUMERGIBLES</td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Caprari Sumergibles 06MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
           
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/CAPRARI.jpg" width="80%" alt=""></th>
-            <td class="lili">CAPRARI</td>
             <td>ITALIANA, SUPERFICIAL</td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Caprari Superficial 06MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
           
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/LUCKY PRO.jpg" width="80%" alt=""></th>
-            <td class="lili">LUCKY PRO</td>
             <td>LUCKY PRO</td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/LUCKY-PRO-02MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
           
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/KOSHIN.jpg" width="80%" alt=""></th>
-            <td class="lili">KOSHIN</td>
             <td>KOSHIN </td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Koshin-Mori-02MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
           
           <tr>
-            <th scope="row" class="img-li"><img src="pagina sr/Imagenes/CHANGFA.jpg" width="80%" alt=""></th>
-            <td class="lili">CHANGFA - HWASDAN</td>
             <td>CHANGFA - HWASDAN</td>
             <td><a class="enlace_tabla" target="bkank" href="pagina sr/Lista de Precios/Changfa FEROZ 03MAY2023.pdf">Ver lista de precios</a></td>
           </tr>
 
         </tbody>
       </table>
-
-     <!--Fin tabla-->
+</div>
+    <!--Fin tabla movil-->
 
 
 
